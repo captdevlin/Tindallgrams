@@ -4,6 +4,10 @@ date: Jan 14 1969
 from: PA/Chief, Apollo Data Priority Coordination
 serial: 69-PA-T-3A
 subject: Operations required for communication loss on F and G are sure better than on C'
+tags:
+  - F Mission
+  - G Mission
+  - C Prime Mission
 ---
 I think we have pretty well establised how to handle a communication
 loss situation on the F and G missions. In effect, we have defined
