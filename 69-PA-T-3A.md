@@ -1,6 +1,6 @@
 ---
 layout: tindallgram
-date: Jan 14, 1969
+date: Jan 14 1969
 from: PA/Chief, Apollo Data Priority Coordination
 serial: 69-PA-T-3A
 subject: Operations required for communication loss on F and C are sure better than on C'
