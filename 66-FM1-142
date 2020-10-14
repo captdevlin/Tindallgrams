@@ -1,0 +1,80 @@
+---
+layout: tindallgram
+date: Nov 01 1966 
+from: FM/Deputy Chief, Mission Planning and Analysis Division
+serial: 66-FM1-142
+subject: In which some items of interest regarding the AS-206 LGC program status are discussed
+---
+Quite a number of things have been going on with regard to AS-206 mission  
+plans, spacecraft configuration, and the LGC computer program development.  
+I would like to take a couple of minutes here to let you know about the  
+latest developments in the latter.
+
+Ed Copps indicates that the program development is proceeding on schedule  
+as far as he can tell, and that the next valid schedule check-point will  
+occur in about three weeks. I suppose we will schedule a review about  
+that time. MIT has been studying the effects of the spacecraft equipment  
+deletions on the program and to date has found nothing that is not acceptable.  
+They did point out that it is necessary for the ground to send  
+certain commands which previously were optional. We did not take time to  
+examine this particular subject in detail, but I would suggest that someone  
+from the Flight Control Division should get in touch with Tom Price  
+of our Flight Software Branch to learn more about this in detail.
+
+One program change requested by ASPO was for the LGC to issue some additional  
+commands in order that redundant relays could be used in two mission  
+critical circuits. MIT indicated that this program change could be implemented  
+without schedule impact since we had already indicated to them that  
+it would be okay to delete several processrs from the AS-206 program  
+which were no longer required. Specifically, we dropped out the 3rd and  
+4th APS maneuvers and the RCS cold soak since they are no longer a part of  
+the mission. We also indicated that we could probably omit the DPS cold  
+soak phase from the mission if that provided a significant saving in program  
+effort or, if it permitted, the use of a more desirable platform alignment.  
+Apparently the alignment which has been chosen for the AS-206 has been somewhat  
+constrained by this cold soak phase and makes necessary special prelaunch  
+processing of some sort. MIT is to let us know if dropping this  
+mission phase would be beneficial to them.
+
+Currently there are no open items on the AS-206 program, although MIT is  
+concerned about a couple of things. One is they are not happy about our  
+one-second downlink. They feel that this will not provide enough data  
+for post-flight analysis and are concerned that MSC will soon request additional  
+downlink formats. The second item is associated with the LM spacecraft  
+separation from the Saturn. Apparently we have requested that a  
+constant attitude rate be maintained as opposed to an inertial attitude  
+hold which would be simpler to provide. I gather they just honestly don't  
+understand why anyone wants this constant rate mode, although they are  
+programming it. Carl Huss was going to look into this a little bit.  
+Apparently he was not even aware that was the way it was to be. Weird.  
+
+Two items were closed out as follows:
+
+a) We have instructed MIT to implement 4-jet ullage in the AS-206  
+program; i.e., the computer program will command all 4 jets on for the  
+duration of time which would be required if only 2 jets were used. This  
+is to insure that the ullage will be sufficient for the main engine start  
+in spite of jet failures which have been protected against by the jet select  
+logic in the program. Implementing the 4-jet logic means there is no need  
+for the dV monitor nor the changes to the spacecraft jet failure systems  
+which had been suggested. The dV monitor, you recall, was a proposed program  
+change [i.e., MDRB #206-19] which was to inhibit the main engine start  
+signal if sufficient dV had not been detected by the LGC.
+
+b) MIT was informed to change the DPS engine start sequence to 10%  
+thrust rather than 30% thrust. This change is beneficial to program development  
+and to the engine people - a rare occurence.
+
+I might also point out we had a highly successful meeting with Grumman on  
+October 20th where we discussed their requirements for program tapes and  
+data packages for use on their simulation facilities. As I understand it,  
+everyone agreed that we could provide tapes at any time Grumman requested  
+them with the understanding that they would certainly not be flight qualified  
+- in fact, their quality will likely be unknown at the time of delivery.  
+We also indicated that the deficiency reports accompanying these  
+tapes might be rather crude and incomplete. As a possible work around, it  
+was suggested that Grumman could provide a knowledgeable resident at MIT  
+for the last couple of weeks prior to their acquiring a tape. This person  
+should the be aware of the status of the program when they get it.  
+Actually, Grumman has taken steps to do this - two of their guys were up  
+there just last week to get their feet wet.
